@@ -12,7 +12,7 @@ export default function Carrinho() {
         <Topo titulo={carrinho.topo.titulo}/>
         <View style={style.carrinho}>
         <Detalhe nome={carrinho.detalhes.nome}
-         nomeFazenda={carrinho.detalhes.nomeFazenda}
+         nomeOtica={carrinho.detalhes.nomeOtica}
          descricao={carrinho.detalhes.descricao}
          preco={carrinho.detalhes.preco}
          botao={carrinho.detalhes.botao}

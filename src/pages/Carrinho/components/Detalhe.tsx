@@ -5,20 +5,20 @@ import TextStyle from "../../../components/Text"
 
 type Props = {
   nome: string,
-  nomeFazenda: string,
+  nomeOtica: string,
   descricao: string,
   preco: string,
   botao: string
 }
 
 
-export default function Detalhe({nome, nomeFazenda, descricao, preco, botao}: Props) {
+export default function Detalhe({nome, nomeOtica, descricao, preco, botao}: Props) {
     return (
     <>
     <TextStyle style={style.nome}>{nome}</TextStyle>
-        <View style={style.fazenda}>
-            <Image source={logo} style={style.imagemFazenda}/>
-        <Text style={style.nomeFazenda}>{nomeFazenda}</Text>
+        <View style={style.otica}>
+            <Image source={logo} style={style.imagemotica}/>
+        <Text style={style.nomeOtica}>{nomeOtica}</Text>
         </View>
         <Text style={style.descricao}>{descricao}</Text>
     <Text style={style.preco}>{preco}</Text>
@@ -36,15 +36,15 @@ const style = StyleSheet.create({
         color: '#464646',
         fontFamily: 'MontSerratBold'
     },
-    fazenda: {
+    otica: {
         flexDirection: "row",
         paddingVertical: 12
     },
-    imagemFazenda: {
+    imagemotica: {
         width: 32,
         height: 32
     },
-    nomeFazenda: {
+    nomeOtica: {
         fontFamily: "MontSerratBold",
         fontSize: 16,
         lineHeight: 26,

@@ -1,8 +1,7 @@
-import tomate from '../../assets/frutas/Tomate.png';
-import brocolis from '../../assets/frutas/Brócolis.png';
-import batata from '../../assets/frutas/Batata.png';
-import pepino from '../../assets/frutas/Pepino.png';
-import abobora from '../../assets/frutas/Abóbora.png';
+import oculos from '../../assets/oculos/oculos.png';
+import oculos2 from '../../assets/oculos/oculolus2.png';
+import oculos3 from '../../assets/oculos/oculos3.png';
+
 
 const carrinho = {
     topo: {
@@ -10,8 +9,8 @@ const carrinho = {
     },
     detalhes: {
         nome: "Carrinho de Compras",
-        nomeFazenda: "Etec Cidade do Livro",
-        descricao: "Uma cesta com produtos selecionados cuidadosamente da fazendo direto para a sua cozinha.",
+        nomeOtica: "otica gabriel",
+        descricao: "uma otica simples e perfeita",
         preco: "R$ 40,00",
         botao: "Comprar",
     },
@@ -19,24 +18,16 @@ const carrinho = {
       titulo: "Itens do Carrinho",
       lista: [
         {
-          nome: "Tomate",
-          imagem: tomate,
+          nome: "oculos",
+          imagem: oculos,
         },
         {
-          nome: "Brócolis",
-          imagem: brocolis,
+          nome: "oculos2",
+          imagem: oculos2,
         },
         {
-          nome: "Batata",
-          imagem: batata,
-        },
-        {
-          nome: "Pepino",
-          imagem: pepino,
-        },
-        {
-          nome: "Abóbora",
-          imagem: abobora,
+          nome: "oculos3",
+          imagem: oculos3,
         }
       ]
     }
