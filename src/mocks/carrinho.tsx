@@ -5,11 +5,11 @@ import oculos3 from '../../assets/oculos/oculos3.png';
 
 const carrinho = {
     topo: {
-        titulo: "Detalhes do Carrinho",
+        titulo: "oticas gabriel",
     },
     detalhes: {
         nome: "Carrinho de Compras",
-        nomeOtica: "otica gabriel",
+        nomeOtica: "super oculos",
         descricao: "uma otica simples e perfeita",
         preco: "R$ 40,00",
         botao: "Comprar",
